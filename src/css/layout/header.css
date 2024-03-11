@@ -1,0 +1,43 @@
+.page__header {
+    width: calc(100% - 200px);
+    height: 70px;
+    margin: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+}
+
+.header__logo {
+    height: 60px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.navigation__lien {
+    color: var(--blanc);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navigation__button {
+    border: solid var(--blanc) 1px;
+    background-color: var(--violet);
+    color: var(--blanc);
+    height: 50px;
+    width: 180px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.navigation__button:hover {
+    color: var(--Noir);
+    transition: all .2s linear;
+}

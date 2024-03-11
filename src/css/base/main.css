@@ -1,0 +1,183 @@
+.page{
+    background-color: var(--blanc);
+}
+.page--main{
+    background-color: var(--noir);
+}
+.homePage__accueil{
+    background-repeat: no-repeat;
+    background-image: radial-gradient(at center center, #4B4F58 0%, #8e43f0 100%);
+    height: 100vh;
+}
+.homePage__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 50%;
+    object-position:top;
+}
+.accueil__premierPlan{
+    position: absolute;
+    z-index: 10;
+    color: var(--blanc);
+    text-align: center;
+    margin-left: calc(50% - 200px);
+    margin-top: calc(-30px - 60vh); 
+}
+.accueil__firstText{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 600px;
+    width: 400px;
+}
+.accueil__title{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 64px;
+    font-weight: 600px;
+    width: 400px;
+}
+.accueil__sloganAlt{
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.accueil__button{
+    font-family: "Montserrat", sans-serif;
+    border: solid var(--blanc) 2px;
+    background-color: rgba(0,0,0,0);
+    font-size: 15px;
+    color: var(--blanc);
+    padding: 16px 40px;
+    letter-spacing: 2px;
+}
+.accueil__button:active, .case__button:active{
+    background: #153243;
+    border: #153243;
+    color: var(--blanc);
+}
+.homePage__affect{
+    background-color: #F3F1F6;
+    padding:51px 51px;
+}
+.atract__case{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--blanc);
+    text-align: center;
+}
+.case__title{
+    font-family: "Rubik", sans-serif;
+    color: var(--rose);
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 600;
+}
+.case__texte1, .case__texte2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.case__texte1{
+    width: 500px;
+    margin-top: 40px;
+    padding: 20px 80px;
+    margin: auto;
+    text-align: left;
+}
+
+.case__button{
+    font-family: "Montserrat", sans-serif;
+    border: solid var(--violet) 2px;
+    background-color: rgba(0,0,0,0);
+    font-size: 15px;
+    color: var(--violet);
+    padding: 16px 40px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.homePage__connatif{
+    background-color: #F3F1F6;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../../../public/img/Logo.svg);
+    background-clip: padding-box;
+}
+.connatif__filter{
+    background-image: radial-gradient(at center center, #4B4F58 0%, #8e43f0 100%);
+    opacity: 0.6;
+    height: 700px;    
+}
+.connatif__premierPlan{
+    margin-top: -550px;
+    position:absolute;
+    color: var(--blanc);
+    text-align: center;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+.connatif__title{
+    font-family: "Rubik", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.connatif__texte{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.connatif__button{
+    font-family: "Montserrat", sans-serif;
+    border: solid var(--blanc) 2px;
+    background-color: rgba(0,0,0,0);
+    font-size: 15px;
+    color: var(--blanc);
+    padding: 16px 40px;
+    letter-spacing: 2px;  
+}
+.connatif__button:hover{
+    background: var(--blanc);
+    border: var(--blanc);
+    color: #153243;
+}
+/*commun à leurs pages*/
+.service__entete,
+.about__entete,
+.contact__entete{
+    background-image: radial-gradient(at center center, #4B4F58 0%, #8e43f0 100%);
+    height: 300px;
+}
+.entete__background{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 50%;
+    object-position: center;
+}
+.entete__background--top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 50%;
+    object-position: top;
+}
+.entete__title{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    font-family: "Rubik", sans-serif;
+    color: var(--blanc);
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -70px;
+}

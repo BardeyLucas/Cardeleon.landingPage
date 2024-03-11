@@ -1,0 +1,123 @@
+.contact__communic{
+    display: flex;
+    margin: 10%;
+}
+/*reseau*/
+.communic__reseaux{
+    width: 40%;
+}
+.reseaux__title--linkedin{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 500; 
+    margin-bottom: 50px;
+}
+.reseaux__title--Email, .reseaux__title--horaires {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.linkedin__link, .Email__link{
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.linkedin__link--img, .Email__link--img{
+        height: 18px;
+        width: 18px;
+}
+.horaires__texte{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    color: var(--noir);
+    margin-bottom: 20px;
+}
+.linkedin__link--texte, .Email__link--texte{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    color: var(--noir);
+    margin-bottom: 20px;
+}
+/*form*/
+.communic__form{
+    width:60%;
+}
+.form__title{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.form__question{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+} 
+.question__label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    margin: 0;
+    color: var(--noir);   
+} 
+.question__input{
+    border: solid #747171 1px;
+    background-color: var(--blanc);
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    color: var(--noir);  
+    height: 60px;
+}
+.form__question--messages {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.question__label--messages {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    margin: 0;
+    color: var(--noir);  
+}
+.question__input--messages {
+    border: solid #747171 1px;
+    background-color: var(--blanc);
+    border-radius: 5px;
+    height: 200px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2rem;
+    margin: 0;
+    color: var(--noir); 
+    vertical-align: top;
+    padding-top: 0.8rem;
+}
+.question__input--messages::placeholder{
+    position: absolute;
+    top: 20px;
+}
+.form__button{
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--violet);
+    font-size: 20px;
+    color: var(--blanc);
+    padding: 16px 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}

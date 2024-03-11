@@ -1,0 +1,53 @@
+.bio__galerie{
+    margin:100px 0 20px ;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.galerie__img{
+    width: 200px;
+    height: 336px;
+    object-fit: cover;
+}
+.bio__texte{
+    width: 780px;
+    margin-left: calc(50% - 390px);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.about__projet{
+    display: flex;
+    justify-content: center;
+    padding: 50px 10%;
+    background-color: #F3F1F6 ;
+    gap: 5%;
+}
+.projet__mission, 
+.projet__vision, 
+.projet__valeur{
+}
+.mission__title,
+.vision__title,
+.valeur__title {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.mission__texte,
+.vision__texte,
+.valeur__ligne {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+}
+
+.valeur__liste {
+    list-style: url('/public/img/Polygon.svg');
+    padding: 0;
+    padding-left: 10px;
+}
